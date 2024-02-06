@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    overflow: hidden;
+    
+
+}
+.class1{
+    
+    position: relative;
+    top: 500px;
+
+}
+
+.navigation {
+    
+    margin-top: 50%;
+    padding: 100px;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+
+button {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(51, 49, 49);
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration-color: brown;
+
+
+
+}
+
+a {
+    color: wheat;
+}
+
+
+.class2 {
+    background-color: rgb(27, 27, 15);
+    color: aliceblue;
+
+    top: 0px;
+    left: 300px;
+
+
+
+
+}
+
+.child1 {
+
+
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.child2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+
+
+
+}
+
+.child3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    margin: 10px;
+
+}
+
+.child4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.child5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    width: 100%;
+
+}
+
+.child5 .contact {
+
+    display: flex;
+   justify-content: center;
+   text-align: center;
+
+
+}
+.child5 .c1{
+
+    
+   justify-content:right ;
+   text-align: center;
+   margin-bottom: 100px;
+
+
+}
+
+.child4 .portfolio {
+    display: flex;
+    position: relative;
+
+    left: 300px;
+    top: -260px;
+
+
+}
+
+.ed1 {
+    border-right: 1px solid;
+}
+
+.ed2 {
+    border-right: 1px solid;
+}
+
+.ed3 {
+    border-right: 1px solid;
+}
+
+.ed4 {
+    border-right: 1px solid;
+}
+
+.ed5 {
+    border-right: 1px solid;
+}
+
+.ed6 {
+    border-right: 1px solid;
+}
+
+.child1 {
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.section0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftside {
+    display: flex;
+}
+
+
+.leftside .experience {
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: rgb(70, 65, 65);
+}
+
+.leftside .projects {
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: rgb(70, 65, 65);
+}
+
+.leftside .github {
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid wheat;
+    background-color: rgb(70, 65, 65);
+}
+
+.leftside .colabration {
+    color: wheat;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: rgb(70, 65, 65);
+    
+}
+b{
+    color: brown;
+}
+.myeducation{
+    
+    display: flex;
+    position: relative;
+    top: -200px;
+    left: 300px;
+
+
+}
